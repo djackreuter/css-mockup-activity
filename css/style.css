@@ -66,6 +66,7 @@ header .container h1 {
 	color: white;
 	float: left;
 	margin-top: 1.4rem;
+	padding-left: 1.2rem;
 }
 
 header .container em {
@@ -98,13 +99,12 @@ section .container .instructions {
 }
 
 /* Section 1 */
-section .container1 {
+section .section-1 {
 	position: relative;
 	left: 50px;
-	/* float right; */
 }
 
-section .container1 span {
+section .section-1 span {
 	font-weight: bold;
 }
 
