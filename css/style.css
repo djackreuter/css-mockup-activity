@@ -97,6 +97,46 @@ section .container .instructions {
 	max-height: 10rem;
 }
 
+/* Section 1 */
+section .container1 {
+	position: relative;
+	left: 50px;
+	/* float right; */
+}
+
+section .container1 span {
+	font-weight: bold;
+}
+
+
+/* Section 2 */
+section .container h2 {
+	color: orange;
+}
+
+section .container #table-heading {
+	float: right;
+}
+
+table {
+	background: orange;
+	color: white;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+section .container table tr td, th {
+	margin: 0;
+	padding: 1rem;
+	border: 3px solid white;
+
+}
+
+
+
+
+
 
 
 
