@@ -103,10 +103,26 @@ img {
 	position: relative;
 	background: lightgray;
 	left: 50px;
+	min-height: 20rem;
 }
 
 section .section-1 span {
 	font-weight: bold;
+}
+
+.cpt {
+	float: left;
+	position: relative;
+	top: 4rem;
+	left: 4rem;
+}
+
+.text1 {
+	position: relative;
+	left: 5rem;
+	padding-right: 6rem;
+	color: gray;
+	padding-top: 2rem;
 }
 
 
