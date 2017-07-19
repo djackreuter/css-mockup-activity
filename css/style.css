@@ -54,6 +54,10 @@ body { width: 100%;}
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
 ******************************************************/
 /* Header */
+* {
+	font-family: sans-serif, Times, serif;
+}
+
 header .container {
 	background: orange;
 	width: 100%;
@@ -100,9 +104,7 @@ img {
 
 /* Section 1 */
 .section-1 {
-	position: relative;
 	background: lightgray;
-	left: 50px;
 	min-height: 20rem;
 }
 
@@ -123,6 +125,7 @@ section .section-1 span {
 	padding-right: 6rem;
 	color: gray;
 	padding-top: 2rem;
+	padding-left: 16rem;
 }
 
 
@@ -135,6 +138,7 @@ section .container #table-heading {
 	float: right;
 }
 
+/* table */
 table {
 	background: orange;
 	color: white;
@@ -147,7 +151,13 @@ section .container table tr td, th {
 	margin: 0;
 	padding: 1rem;
 	border: 3px solid white;
+}
 
+/* footer */
+footer {
+	background: black;
+	color: white;
+	margin-top: 3rem;
 }
 
 
